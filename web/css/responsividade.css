@@ -16,6 +16,10 @@
     width: 100%;
   }
 
+  main #testimony {
+     padding-inline: 1.5rem;
+  }
+
   footer form button {
     font-size: 0.75rem;
   }

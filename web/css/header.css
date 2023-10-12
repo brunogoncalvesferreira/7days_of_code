@@ -18,6 +18,8 @@
   font-weight: 500;
   color: #667085;
   transition: 0.2s;
+
+  color: #667085;
 }
 
 #header #navigation #list-link li a:hover {
