@@ -9,8 +9,8 @@ Para construir essa página, utilizamos amplamente o conceito do CSS Flexbox. Se
 
 Optei em utilizar o [vitejs](https://pt.vitejs.dev/guide/) pois proporciona uma experiência de desenvolvimento mais ágil e leve para projetos da web. Você pode conferir o projeto online clicando no link abaixo:
 
-<a href="" target="_blank">Clique é veja o projeto online</a>
+<a href="https://7days-of-code-phi.vercel.app/" target="_blank">Clique é veja o projeto online</a>
 
 📝 Licença
 
-Este projeto está licenciado com a licença [MIT](https://github.com/brunogoncalvesferreira/treine.me/blob/main/LICENSE).
+Este projeto está licenciado com a licença [MIT](https://github.com/brunogoncalvesferreira/7days_of_code/blob/main/LICENSE).
