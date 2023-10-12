@@ -18,8 +18,6 @@
   font-weight: 500;
   color: #667085;
   transition: 0.2s;
-
-  color: #667085;
 }
 
 #header #navigation #list-link li a:hover {
@@ -28,6 +26,10 @@
 
 #header #navigation #login-buttons {
   display: flex;
+}
+
+#header #login-buttons #to-enter {
+  color: #667085;
 }
 
 #header #login-buttons #register {
