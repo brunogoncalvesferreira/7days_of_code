@@ -1,0 +1,47 @@
+#header {
+  padding: 1.125rem 0;
+
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#header #navigation #list-link {
+  display: flex;
+  gap: 2rem;
+}
+
+#header #navigation #list-link li a {
+  line-height: 24px;
+  font-weight: 500;
+  color: #667085;
+  transition: 0.2s;
+}
+
+#header #navigation #list-link li a:hover {
+  color: #000;
+}
+
+#header #navigation #login-buttons {
+  display: flex;
+}
+
+#header #login-buttons #register {
+  background: #8e2424;
+
+  padding: 0.625rem 1.125rem;
+
+  margin-left: 0.75rem;
+  border-radius: 8px;
+
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff;
+  transition: 0.3s;
+}
+
+#header #login-buttons #register:hover {
+  background: #ac2c2c;
+}

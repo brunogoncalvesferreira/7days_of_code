@@ -1,0 +1,48 @@
+main #testimony {
+  margin-top: 6rem;
+  background: #fdf8f8;
+
+  padding: 4rem 0;
+}
+
+main #testimony h2 {
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.25rem;
+  color: #8e2424;
+
+  text-align: center;
+}
+
+main #testimony h1 {
+  font-size: 2.25rem;
+  font-weight: 500;
+  line-height: 2.75rem;
+  letter-spacing: -2%;
+  color: #101828;
+
+  margin-top: 1rem;
+  text-align: center;
+}
+
+main #testimony #avatar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: 2rem;
+}
+
+main #testimony #avatar strong {
+  margin-top: 1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  text-align: center;
+  color: #101828;
+}
+
+main #testimony #avatar p {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: #667085;
+}

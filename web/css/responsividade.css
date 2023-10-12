@@ -1,0 +1,22 @@
+@media (max-width: 915px) {
+  html {
+    font-size: 85%;
+  }
+
+  #navigation {
+    display: none;
+  }
+
+  #metrics {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  main #about #metrics #card-metric {
+    width: 100%;
+  }
+
+  footer form button {
+    font-size: 0.75rem;
+  }
+}

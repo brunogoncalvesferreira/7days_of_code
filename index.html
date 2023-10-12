@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+  <title>7days of code html-css</title>
+</head>
+
+<body>
+  <div id="app">
+
+    <!--header-->
+    <header id="header">
+      <img id="logo" src="images/logo.svg" alt="Imagem de logo da página">
+
+      <nav id="navigation">
+        <ul id="list-link"></ul>
+      </nav>
+
+      <div id="login-buttons">
+        <a id="to-enter" href="#">Entrar</a>
+        <a id="register" href="#">Cadastrar</a>
+      </div>
+    </header>
+
+    <!--about-->
+    <main>
+      <section id="about">
+        <h2>Sobre nós</h2>
+        <h1>Por que somos diferentes?</h1>
+
+        <p>Nós focamos nos detalhes de tudo que fazemos. Tudo para ajudar as empresas de todo o mundo a se concentrarem
+          naquilo que é realmente importante para elas.</p>
+
+        <div id="metrics"></div>
+
+      </section>
+
+      <!--Vagas-->
+      <section id="vacancies">
+        <h2>Vagas abertas</h2>
+        <h1>Estamos procurando por talentos</h1>
+
+        <p>Somos uma equipe 100% remota com pessoas do Brasil inteiro.</p>
+
+        <img id="banner" src="/images/banner.svg" alt="Imagem de pessoas em uma reunião de negócios">
+
+        <div id="jobs"></div>
+      </section>
+
+      <!--testimony-->
+      <section id="testimony">
+        <h2>Veja o que nossos colaboradores falam sobre nós</h2>
+        <h1>OptimusTech se importa com a saúde dos seus colaboradores e sempre procura nos dar todo tipo de auxílio
+          possível.</h1>
+
+        <div id="avatar">
+          <img src="/images/avatar.svg" alt="Foto do colaborador qua fez o depoimento.">
+          <strong>Júlia Castro</strong>
+          <p>Desenvolvedora Web</p>
+        </div>
+      </section>
+    </main>
+
+    <!--footer-->
+    <footer>
+      <h1>Acompanhe as nossas oportunidades</h1>
+      <p>Seja o primeiro a saber quando novas vagas serão abertas!</p>
+
+      <form>
+        <input type="text" placeholder="Seu e-mail">
+        <button type="submit">Cadastrar</button>
+      </form>
+
+      <span>© 2022 OptimusTech. Todos os direitos reservados.</span>
+    </footer>
+
+  </div>
+  <script type="module" src="./web/js/main.js"></script>
+</body>
+
+</html>
